@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 
 const EditCandidatePage = props => {
   const [validated, setValidated] = useState(false)
-  const [candidate, setCandidate] = useState(null)
+  const [candidate, setCandidate] = useState({})
   const { id } = useParams()
 
   const handleSubmit = async event => {
