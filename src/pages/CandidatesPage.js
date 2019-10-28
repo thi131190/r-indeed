@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import {
   Row,
@@ -62,9 +63,12 @@ const CandidatesPage = () => {
                   </ListGroupItem>
                 </ListGroup>
                 <Card.Body>
-                  <Card.Link href={`/candidates/${candidate.id}`}>
+                  <Link
+                    className='card-link'
+                    to={`/candidates/${candidate.id}`}
+                  >
                     Edit
-                  </Card.Link>
+                  </Link>
                   <Card.Link
                     onClick={e => onDeleteCandidate(e, candidate.id)}
                     href={`/candidates/${candidate.id}`}
