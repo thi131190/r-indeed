@@ -1,30 +1,6 @@
 {
   "candidates": [
     {
-      "id": 1,
-      "first_name": "Rosalie",
-      "last_name": "Simcock",
-      "email": "rsimcock0@google.fr",
-      "gender": "Female",
-      "company": "Lazzy",
-      "job_title": "Nurse Practicioner",
-      "city": "Jaguaquara",
-      "country": "Brazil",
-      "photo_url": "https://robohash.org/ipsammolestiaeprovident.png?size=500x500&set=set1"
-    },
-    {
-      "id": 2,
-      "first_name": "Felice",
-      "last_name": "Redler",
-      "email": "fredler1@state.gov",
-      "gender": "Male",
-      "company": "Skipstorm",
-      "job_title": "Electrical Engineer",
-      "city": "Dukla",
-      "country": "Poland",
-      "photo_url": "https://robohash.org/idvoluptatibusdolorem.png?size=500x500&set=set1"
-    },
-    {
       "id": 3,
       "first_name": "Yoshiko",
       "last_name": "Goford",
