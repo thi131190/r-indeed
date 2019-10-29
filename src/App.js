@@ -7,12 +7,14 @@ import CandidatesPage from './pages/CandidatesPage'
 import CompanyPage from './pages/CompanyPage'
 import EditCandidatePage from './pages/EditCandidatePage'
 import NavBar from './components/NavBar'
+import LoginPage from './pages/LoginPage'
 
 function App () {
   return (
     <div className='App'>
       <NavBar />
-      <Route path='/' exact component={HomePage} />
+      <Route path='/' exact component={LoginPage} />
+      <Route path='/homepage' exact component={HomePage} />
       <Route path='/candidates' exact component={CandidatesPage} />
       <Route path='/candidates/:id' exact component={EditCandidatePage} />
       <Route path='/company' exact component={CompanyPage} />
